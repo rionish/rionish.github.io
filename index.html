@@ -1,0 +1,457 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人作品集 | 产品/策略运营</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <!-- ==================== 顶部导航栏 ==================== -->
+    <header class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">冉济荣 &nbsp 个人求职作品集</div>
+            <nav class="nav-menu" id="navMenu">
+                <a href="#about" class="nav-item">个人介绍</a>
+                <a href="#experience" class="nav-item">实习经历</a>
+                <a href="#projects" class="nav-item">项目案例</a>
+                <!-- 技能沉淀（暂不需要，之后再加）
+                <a href="#skills" class="nav-item">技能沉淀</a>
+                -->
+                <a href="#other-exp" class="nav-item">其他经历</a>
+                <a href="./assets/files/resume.pdf" target="_blank" class="nav-item nav-resume">下载简历PDF</a>
+            </nav>
+            <button class="hamburger" id="hamburger" aria-label="菜单">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- ==================== Hero 首屏（纯文字满屏） ==================== -->
+        <section id="hero" class="hero">
+            <div class="hero-container">
+                <span class="tag">意向岗位：产品运营 / 策略运营 / 市场营销</span>
+                <h1>Hi，我是冉济荣</h1>
+                <p class="hero-subtitle">聚焦互联网产品运营与策略运营工作</p>
+                <p class="hero-desc">擅长发现问题，提出解决方案并推动落地。利用数据驱动业务增长，运用AI补齐短板，落地实践。</p>
+                <div class="hero-buttons">
+                    <a href="https://github.com/yourname" target="_blank" class="btn-black">GitHub</a>
+                    <a href="mailto:rionwrionish@gmail.com" class="btn-outline copy-btn" data-copy="rionwrionish@gmail.com">✉ rionwrionish@gmail.com</a>
+                    <a href="tel:15025630892" class="btn-outline copy-btn" data-copy="15025630892">📱 15025630892</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== 个人介绍 ==================== -->
+        <section id="about" class="section floating-card">
+            <div class="container">
+                <div class="about-grid">
+                    <div class="about-avatar">
+                        <div class="avatar-circle" id="avatar">
+                            <img src="./assets/images/avatar.jpg" alt="冉济荣" class="avatar-img"
+                                 onerror="this.style.display='none'">
+                            <span class="avatar-ph">头像</span>
+                        </div>
+                    </div>
+                    <div class="about-text">
+                        <h2 class="section-title">个人介绍</h2>
+                        <div class="hero-highlight">
+                            <div class="hl-item">
+                                <span class="hl-label">教育经历</span>
+                                <span class="hl-value hl-edu">
+                                    <span class="hl-edu-row"><span>南洋理工大学 管理经济学硕士 &nbsp;&nbsp;&nbsp; </span><span class="hl-edu-info">2026年 新加坡</span></span>
+                                    <span class="hl-edu-row"><span>华南理工大学 财务管理学士</span><span class="hl-edu-info">2024年 广州</span></span>
+                                </span>
+                            </div>
+                            <div class="hl-item">
+                                <span class="hl-label">快手 · 商业化运营</span>
+                                <span class="hl-value">降低头客退货率 · 活跃素材掉量治理</span>
+                            </div>
+                            <div class="hl-item">
+                                <span class="hl-label">携程 · 产品运营</span>
+                                <span class="hl-value">AI-LLM模型提升上货率至40%+ · 录播渗透率提升 </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== 核心实习经历 ==================== -->
+        <section id="experience" class="section">
+            <div class="container">
+                <h2 class="section-title">互联网实习经历</h2>
+                <p class="section-desc">两段互联网实习：业务背景 → 我的职责 → 落地成果 → 方法论沉淀</p>
+
+                <!-- 快手卡片 -->
+                <article class="exp-card">
+                    <div class="exp-header">
+                        <div class="exp-badge">
+                            <img src="./assets/images/kuaishou.png" alt="快手 logo">
+                        </div>
+                        <div class="exp-title-wrap">
+                            <h3>快手 · 商业化运营实习</h3>
+                            <span class="exp-tag">商业化运营组 · 6个月</span>
+                        </div>
+                    </div>
+                    <div class="exp-content">
+                        <div class="exp-left">
+                            <div class="exp-block">
+                                <h4>业务背景</h4>
+                                <p>商业化变现团队负责广告产品营收；实习期间参与广告主投放策略优化与客户分层运营。</p>
+                            </div>
+                            <div class="exp-block">
+                                <h4>我的职责</h4>
+                                <p>负责行业客户数据分析、为客情指标退货率负责与周报沉淀，协同产品与销售推进策略落地。</p>
+                            </div>
+                            <div class="metric-row">
+                                <div class="metric-item clickable" data-modal="modal-kuaishou-1">
+                                    <span class="num">-6pp</span>
+                                    <span class="metric-name">退货率</span>
+                                    <span class="label">退货率治理标准化流程上线，客户整体退货率明显下降</span>
+                                </div>
+                                <div class="metric-item clickable" data-modal="modal-kuaishou-2">
+                                    <span class="num">+27%</span>
+                                    <span class="metric-name">活跃素材</span>
+                                    <span class="label">活跃素材掉量严重，找准根源，解决问题，推进解决后成为复用机制</span>
+                                </div>
+                                <div class="metric-item clickable" data-modal="modal-kuaishou-3">
+                                    <span class="num">Python自动脚本</span>
+                                    <span class="label">对外行业分析周报，AI辅助Python自动化工具流，提升工作效率</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="exp-right">
+                            <div class="result-image-box"><img src="./assets/images/kflow.png" alt="快手成果示意图" class="lightbox-trigger" onerror="this.parentElement.classList.add(""empty"")"></div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- 携程卡片 -->
+                <article class="exp-card">
+                    <div class="exp-header">
+                        <div class="exp-badge">
+                            <img src="./assets/images/ctrip.png" alt="携程 logo">
+                        </div>
+                        <div class="exp-title-wrap">
+                            <h3>携程 · 产品运营实习</h3>
+                            <span class="exp-tag">产品运营组 · 4个月</span>
+                        </div>
+                    </div>
+                    <div class="exp-content">
+                        <div class="exp-left">
+                            <div class="exp-block">
+                                <h4>业务背景</h4>
+                                <p>团队主营业务为海外度假代理，围绕GMV指标，负责指标提升链路上的产品运营工作。</p>
+                            </div>
+                            <div class="exp-block">
+                                <h4>我的职责</h4>
+                                <p>负责整体有产链路的上货环节。项目管理与推进，数据看板搭建并跟踪迭代效果。</p>
+                            </div>
+                            <div class="metric-row">
+                                <div class="metric-item clickable" data-modal="modal-ctrip-1">
+                                    <span class="num">10% → 40% ↑</span>
+                                    <span class="metric-name">上货率</span>
+                                    <span class="label">AI辅助上货工具上线后，提升整体核心供应商上货率达40%</span>
+                                </div>
+                                <div class="metric-item clickable" data-modal="modal-ctrip-2">
+                                    <span class="num">+5pp</span>
+                                    <span class="metric-name">录播渗透率</span>
+                                    <span class="label">录播业务推进情况不理想，产出双周数据周报，找出业务卡点，提升录播渗透率</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="exp-right">
+                            <div class="result-image-box"><img src="./assets/images/cflow.png" alt="携程成果示意图" class="lightbox-trigger" onerror="this.parentElement.classList.add(""empty"")"></div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- ==================== 项目案例 ==================== -->
+        <section id="projects" class="section bg-light">
+            <div class="container">
+                <h2 class="section-title">项目案例</h2>
+                <p class="section-desc">从0到1的完整项目，附流程图、技术栈、仓库与线上入口</p>
+                <div class="project-grid">
+                    <div class="project-card">
+                        <div class="project-img-wrap">
+                            <img src="./assets/images/portfolio-project-flowchart.drawio.png" alt="个人作品集网站项目流程图" class="project-img-real lightbox-trigger">
+                        </div>
+                        <h3>个人作品集网站项目</h3>
+                        <p>需求规划 → AI 辅助开发 → GitHub Pages 部署全链路；沉淀 PRD、复盘文档与迭代记录。</p>
+                        <div class="tag-group">
+                            <span class="small-tag">HTML / CSS</span>
+                            <span class="small-tag">JavaScript</span>
+                            <span class="small-tag">GitHub Pages</span>
+                            <span class="small-tag">AI 辅助开发</span>
+                        </div>
+                        <div class="link-row">
+                            <a href="#" class="link-item">线上访问 →</a>
+                            <a href="#" class="link-item">GitHub 仓库 →</a>
+                            <a href="https://my.feishu.cn/wiki/WKUCwnm6tiSgzdktNSXcnBA3nTc?from=from_copylink" target="_blank" rel="noopener" class="link-item">项目文档 →</a>
+                        </div>
+                    </div>
+                    <!-- 商业化分析 / 运营小项目合集（暂隐藏，之后恢复）
+                    <div class="project-card">
+                        <div class="img-placeholder project-img">分析框架 / 数据看板预览</div>
+                        <h3>商业化分析 / 运营小项目合集</h3>
+                        <p>面向真实业务问题的小型分析与运营实验，展示分析方法、商业洞察与落地动作。</p>
+                        <div class="tag-group">
+                            <span class="small-tag">数据分析</span>
+                            <span class="small-tag">商业洞察</span>
+                            <span class="small-tag">运营实验</span>
+                        </div>
+                        <div class="link-row">
+                            <a href="#" class="link-item">项目文档 →</a>
+                            <a href="#" class="link-item">分析报告 →</a>
+                        </div>
+                    </div>
+                    -->
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== 技能 & 工具看板（暂不需要，之后再加） ====================
+        <section id="skills" class="section">
+            <div class="container">
+                <h2 class="section-title">技能 &amp; 工具</h2>
+                <p class="section-desc">标签 + 熟练度标识：数据分析、工作流工具、文档沉淀与业务洞察</p>
+                <div class="skill-card">
+                    <div class="img-placeholder skill-img">自建工具展示</div>
+                    <h3>工具介绍以及实际使用情况</h3>
+                    <p class="skill-desc">展示提效工具使用，工具定义，工具作用等</p>
+                </div>
+            </div>
+        </section>
+        -->
+
+        <!-- ==================== 其他经历 ==================== -->
+        <section id="other-exp" class="section">
+            <div class="container">
+                <h2 class="section-title">其他经历</h2>
+                <p class="section-desc">核心产出与能力迁移点</p>
+                <div class="other-grid">
+                    <div class="other-card">
+                        <h4>国盛证券固收研究实习</h4>
+                        <span class="exp-tag">固收研究实习生 · 3个月</span>
+                        <p><b>核心产出：</b>深度PPP城投债链路研究报告 1 份</p>
+                        <p><b>能力迁移：</b>行业研究方法与信息结构化</p>
+                    </div>
+                    <div class="other-card">
+                        <h4>保利资本财务实习</h4>
+                        <span class="exp-tag">财务实习生 · 2个月</span>
+                        <p><b>核心产出：</b>参与财务建模与投研项目支持</p>
+                        <p><b>能力迁移：</b>数据处理与合规意识</p>
+                    </div>
+                    <div class="other-card">
+                        <h4>新加坡旅行社 品牌方运营</h4>
+                        <span class="exp-tag">品牌运营实习 · 6个月</span>
+                        <p><b>核心产出：</b>境外供应商在中国OTA平台产品运营</p>
+                        <p><b>能力迁移：</b>电商运营完整流程的理解与实践</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ==================== 页脚 / 联系我 ==================== -->
+    <footer class="footer">
+        <div class="container">
+            <h3>联系我</h3>
+            <p class="footer-note">期待与您交流产品 / 策略运营相关的机会与合作</p>
+            <div class="footer-link-row">
+                <a href="mailto:yourname@mail.com" class="footer-link">
+                    <span class="icon">✉</span> rionwrionish@gmail.com
+                </a>
+                <a href="https://github.com/yourname" target="_blank" class="footer-link">
+                    <span class="icon">⌥</span> github.com/yourname
+                </a>
+                <a href="./assets/files/resume.pdf" target="_blank" class="footer-link">
+                    <span class="icon">▤</span> 简历下载
+                </a>
+            </div>
+            <p class="copyright">© 2026 冉济荣（Rion） · GitHub Pages 托管 · AI 辅助构建</p>
+        </div>
+    </footer>
+
+    <!-- ==================== 灯箱（点击图片放大） ==================== -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" id="lightboxClose" aria-label="关闭">×</button>
+        <img class="lightbox-img" id="lightboxImg" src="" alt="放大预览">
+    </div>
+
+    <!-- ==================== 快手课题详情弹窗 ==================== -->
+
+    <!-- 课题1：退货率治理 -->
+    <div class="detail-modal" id="modal-kuaishou-1">
+        <div class="detail-modal-box">
+            <button class="detail-modal-close" aria-label="关闭">×</button>
+            <h3 class="dm-title">课题一：退货率治理</h3>
+            <div class="dm-block">
+                <h4>一、业务背景</h4>
+                <p>头客阶段性上新，阶段性新品上架其对应退货率都会产生大幅度波动。退货率异常<strong>直接影响客户在平台的投入力度</strong>，<strong>频繁调整广告出价</strong>，导致核心有产指标「消耗」异常，客户对平台配合意愿降低。</p>
+            </div>
+            <div class="dm-block">
+                <h4>二、我的分析思路</h4>
+                <p>退货率在抛开本身产品问题后的主要影响来源有三个部分：</p>
+                <ul class="dm-list">
+                    <li><span class="dm-hl">1. 广告素材本身</span>中出现高退货暗示；</li>
+                    <li><span class="dm-hl">2. 平台内不同流量来源</span>不符合产品定向人群，出现高退货；</li>
+                    <li><span class="dm-hl">3. 销售后端免密支付</span>等客观性因素诱发导致。</li>
+                </ul>
+                <p>这些都是会导致退货产生波动的重要原因。排查后锁定，主要导致客户退货异常的原因是<strong>来自于平台内部的联盟流量异常</strong>。联盟流量大部分来自于站外的流量引入，大部分目标人群和产品定向人群不匹配，导致退货率异常。</p>
+            </div>
+            <div class="dm-block">
+                <h4>三、落地动作</h4>
+                <ul class="dm-list">
+                    <li><strong>1.自建负责头客的退货率监控推送看板</strong>：看板包含平台内广告主新品【各个流量来源的消耗占比以及对应退货率数据】，按天与周的维度进行对比差值。</li>
+                    <li><strong>2.锁定联盟侧为退货率异常的主要来源</strong>，输出近半年联盟流量导致头客退货率异常的案例，形成复盘报告，推动联盟流量优化。</li>
+                    <li><strong>3.报告上升至 mentor、联盟流量负责人及本组商业化产运</strong>，共建联盟流量针对头客的新品保护控比机制，同时优化高退货赔付兜底通道，半月维度提报，提升流量投放效果及赔付效率。</li>
+                </ul>
+            </div>
+            <div class="dm-block">
+                <h4>四、结果</h4>
+                <p>头客退货率 <span class="dm-hl">QoQ 整体下降 6pp+</span>，日均消耗 <span class="dm-hl">QoQ 提升 15%+</span></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- 课题2：活跃素材掉量治理 -->
+    <div class="detail-modal" id="modal-kuaishou-2">
+        <div class="detail-modal-box">
+            <button class="detail-modal-close" aria-label="关闭">×</button>
+            <h3 class="dm-title">课题二：活跃素材掉量治理</h3>
+            <div class="dm-block">
+                <h4>一、业务背景</h4>
+                <p><span class="dm-hl">活跃素材</span>的定义：过审后，产生了消耗的在投素材。当活跃素材出现异常掉量时，其直接导致的影响就是组内核心收益——<strong>广告消耗的持续掉量</strong>。</p>
+            </div>
+            <div class="dm-block">
+                <h4>二、我的分析思路</h4>
+                <p>指标异动的拆解一般都是<strong>由总体到局部</strong>，这样能更好地了解情况，同时深入到最终的执行领域。针对活跃素材这个指标，可以从两个维度拆解：</p>
+                <ul class="dm-list">
+                    <li><strong>1.从指标的整体定义细拆</strong>，其形成途径来自：①通过审核；②产生了消耗（有用户浏览了对应的信息流广告）；③在投（搭建了广告）。</li>
+                    <li><strong>2.从投放的整体逻辑按漏斗拆分</strong>：投前——客户上传的整体基建数量、平台的过审情况；投中——广告素材本身的质量是否低质、参竞模型中参与竞争的排序与召回通过情况。</li>
+                </ul>
+                <p>3.从整体情况了解后，再深入到更细致的环节：<span class="dm-hl">哪些特定类别的产品</span>出现了大量掉量、<span class="dm-hl">哪些头部商家</span>出现了掉量。锁定商家及对应特征的产品，能够<strong>让一线业务与销售人员进行有针对性的调整</strong>，以此解决活跃素材掉量问题。</p>
+            </div>
+            <div class="dm-block">
+                <h4>三、落地动作</h4>
+                <p>按照思路，搭建相应的指标看板，观察掉量时间区间内、下钻指标的变动情况。从指标反应情况得知：</p>
+                <ul class="dm-list">
+                    <li>1.软广过审率在<strong>持续下降</strong>；</li>
+                    <li>2.新建非相似素材在<strong>持续减少</strong>；</li>
+                    <li>3.低质素材的占比<strong>在上升</strong>。</li>
+                </ul>
+                <p>同时再从组内的头客素材供给指标上进行拆解，<strong>定位导致组内活跃素材长期掉量的具体头客</strong>，据此进行策略产出与执行：</p>
+                <ul class="dm-list">
+                    <li><strong>A.针对过审率低</strong>：与风控共建，建立<span class="dm-hl">风控保护机制</span>，进行软广误伤回捞 &amp; 冷启低质标签保护。让头客本身没有问题的素材防止机审误伤，提升过审及素材投放效率，同时让中小新客的冷启动环节快速冷启、提升量级。</li>
+                    <li><strong>B.针对新建非相似素材减少、低质素材增加</strong>：对负责的重点掉量客户按素材生产能力、团队规模等维度<span class="dm-hl">分层运营</span>，差异化推动素材产出效率与质量提升——S 级客户重点引导产出非相似高质素材，A/B 级客户结合 AI 工具和沉淀的裂变思路保障素材量。</li>
+                </ul>
+                <p>最终形成从<strong>审核疏通 → 素材结构优化 → 质量提升</strong>的完整治理链路。</p>
+            </div>
+            <div class="dm-block">
+                <h4>四、结果</h4>
+                <p>专项推进一月后，本组活跃素材 <span class="dm-hl">提高 27%</span></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- 课题3：Python自动化脚本 -->
+    <div class="detail-modal" id="modal-kuaishou-3">
+        <div class="detail-modal-box">
+            <button class="detail-modal-close" aria-label="关闭">×</button>
+            <h3 class="dm-title">课题三：Python 自动化脚本</h3>
+            <div class="dm-block">
+                <h4>一、背景与动机</h4>
+                <p><span class="dm-hl">对外行业周报</span>旨在引导广泛客户了解本周的投放趋势及大盘内的起量情况，更好地指导客户调整产品矩阵、投放节奏与策略。撰写周报的方式和流程固定，都需要对<strong>大量数据进行预处理</strong>，占用大量时间；在该业务背景下，借助 AI 编写 Python 脚本，<strong>自动化处理数据、提升工作效率</strong>。</p>
+            </div>
+            <div class="dm-block">
+                <h4>二、工具做了什么</h4>
+                <ul class="dm-list">
+                    <li><strong>自动化处理 Excel 公式类数据</strong>，减少人工干预，提升数据处理效率与准确性，极大缩短数据处理时间；</li>
+                    <li><strong>自建工具化词典库</strong>，自动对相应商品进行<span class="dm-hl">分类打标</span>，减少人工打标时间。</li>
+                </ul>
+            </div>
+            <div class="dm-block">
+                <h4>三、落地与复用</h4>
+                <p>利用 <span class="dm-hl">Google Colab 平台</span>，将 Python 脚本部署为<strong>可复用的自动化工具</strong>，把原先需要<strong>几小时</strong>的任务工作时间缩短为<strong>几秒钟</strong>就能解决的 Excel 文档处理。</p>
+            </div>
+            <div class="dm-img dm-img-code">
+                <img src="./assets/images/zhoubao.png" alt="Python 自动化脚本代码展示">
+            </div>
+        </div>
+    </div>
+
+    <!-- ==================== 携程课题详情弹窗 ==================== -->
+
+    <!-- 课题1：AI辅助上货工具 -->
+    <div class="detail-modal" id="modal-ctrip-1">
+        <div class="detail-modal-box">
+            <button class="detail-modal-close" aria-label="关闭">×</button>
+            <h3 class="dm-title">课题一：AI 辅助上货工具</h3>
+            <div class="dm-block">
+                <h4>一、业务背景</h4>
+                <p>所在部门为海外度假旅游代理事业部，部门内大部分对接的新签供应商为境外旅行社供应商，对供应商后台软件不熟练，存在<strong>上货难、上货慢</strong>等问题，直接影响部门内部的有产效率及有产规模。为解决上货难卡点，利用 <span class="dm-hl">AI 大语言模型</span>，<strong>智能化识别行程单、定制上货模板</strong>，辅助供应商快速上货，提升整体上货率。</p>
+            </div>
+            <div class="dm-block">
+                <h4>二、我的分析思路</h4>
+                <p>供应商后台上货的主要卡点在于<strong>商品详细信息的录入难</strong>：</p>
+                <ul class="dm-list">
+                    <li>行程的具体时间、行程内容填写<strong>繁琐复杂</strong>，填写一个完整的行程产品需耗费大量时间，且学习成本较大，供应商投入积极性不足；</li>
+                    <li>对大部分中小商家而言，长期行程录入主要由一线运营业务代处理，<strong>精力资源出现明显错配</strong>。</li>
+                </ul>
+                <p>因此结合业务反馈及供应商后台使用体验，明确具体卡点在<span class="dm-hl">供应商行程单录入环节</span>，<strong>提升录入效率</strong>是解决问题的关键。项目接受后也出现明显卡点：</p>
+                <ul class="dm-list">
+                    <li>上线的 AI 辅助上货工具<strong>识别精度低</strong>，实际落地效果差；</li>
+                    <li>一线运营业务<strong>执行意愿不足</strong>，执行过程流程不清晰、业务配合度低。</li>
+                </ul>
+            </div>
+            <div class="dm-block">
+                <h4>三、落地动作</h4>
+                <ul class="dm-list">
+                    <li><strong>针对开发精度问题</strong>：双周搜集业务一线 badcase，了解当前识别卡点原因并分类总结发给研发，<strong>提升模型识别精度</strong>。</li>
+                    <li><strong>针对业务权责不清晰问题</strong>：制作<span class="dm-hl">业务-研发-产研三方项目 SOP</span>，明确各自分工及项目进展，有效率、有指导性地推动项目落地，达成上货率指标；同时推动制定新开上货目标与激励优惠券，激励一线业务运营达成目标；<strong>自建过程性看板</strong>跟踪实际上货达成情况，实时追踪项目进展。</li>
+                </ul>
+            </div>
+            <div class="dm-block">
+                <h4>四、结果</h4>
+                <p>核心新开供应商平台上货率 YoY 由 <span class="dm-hl">25%+ 提升至 40%+</span>，AI 工具缩短冷启动周期，供应商有产规模改善。</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- 课题2：录播渗透率提升 -->
+    <div class="detail-modal" id="modal-ctrip-2">
+        <div class="detail-modal-box">
+            <button class="detail-modal-close" aria-label="关闭">×</button>
+            <h3 class="dm-title">课题二：录播渗透率提升</h3>
+            <div class="dm-block">
+                <h4>一、业务背景</h4>
+                <p>录播功能上线后，<strong>业务推进重点不明确</strong>、<strong>供应商录播效果质量低</strong>，影响录播功能的整体渗透率。功能上线后，增速乏力、增量空间不足。</p>
+            </div>
+            <div class="dm-block">
+                <h4>二、我的分析思路</h4>
+                <p>录播渗透率低的主要原因在于<span class="dm-hl">录播产生的有产值低</span>，因此<strong>提升录播有产值</strong>、拆解有产指标的组成部分，成为解决问题的关键。</p>
+            </div>
+            <div class="dm-block">
+                <h4>三、落地动作</h4>
+                <p>搭建<strong>录播渗透率周报</strong>，单周维度产出分业务组的录播渗透率数据及有产数据周报，观测数据异动。通过异动数据，明确主要问题来源：</p>
+                <ul class="dm-list">
+                    <li><strong>供给数量上</strong>：不同业务组核心供应商没有开播或开播频次低——阶段性引导业务组抓住问题核心，引导核心供应商开播；</li>
+                    <li><strong>供给质量上</strong>：部分供应商开播频次高但有产值低——分析其录播切片内容，有针对性地进行供应商培训，提升录播质量；同时调整录播切片、增设<span class="dm-hl">录播场景化标签</span>等产品功能，优化交互，提升有产效率。</li>
+                </ul>
+            </div>
+            <div class="dm-block">
+                <h4>四、结果</h4>
+                <p>在职期间协助提升大组整体录播 <span class="dm-hl">QoQ 渗透率 5pp+</span>，场景化功能迭代带动核心 GMV 指标增长。</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
