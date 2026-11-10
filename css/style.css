@@ -702,6 +702,32 @@ img { max-width: 100%; display: block; }
     .hl-edu-row > span:first-child { white-space: normal; }
     .hl-edu-info { width: auto; margin-left: 10px; flex-shrink: 0; }
     .section { padding: 48px 0; }
+
+    /* ===== 手机端个人介绍排版优化 ===== */
+    .about-text .hero-highlight { padding: 16px; gap: 14px; }
+    .about-text .hl-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 4px;
+    }
+    .about-text .hl-label {
+        min-width: 0;
+        font-size: 13px;
+    }
+    .about-text .hl-value {
+        font-size: 13px;
+        line-height: 1.6;
+    }
+    .about-text .hl-edu { gap: 6px; }
+    .about-text .hl-edu-row {
+        flex-direction: column;
+        gap: 2px;
+    }
+    .about-text .hl-edu-info {
+        margin-left: 0;
+        font-size: 12px;
+        color: var(--color-gray);
+    }
 }
 
 /* ===== 滚动入场动画 ===== */
